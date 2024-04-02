@@ -54,8 +54,4 @@ HTML, CSS, JavaScript를 사용하여 기존의 SSG LANDERS 홈페이지를 참�
 ## &#128204;SSG LANDERS 바로가기
 
 [<img src="./SSG-icon.ico" width="40" height="40">](https://soyeon1221.github.io/SSG-LANDERS) 아이콘 클릭!
-<<<<<<< HEAD
 <br><br>
-=======
-<br><br>
->>>>>>> dea874e0494d5a16ee155349abc0c6c1f32bd311
