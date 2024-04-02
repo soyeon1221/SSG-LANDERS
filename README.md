@@ -5,12 +5,18 @@
 <br>
 
 
+## &#128204;SSG LANDERS 바로가기
+
+[<img src="./SSG-icon.png" width="40" height="40">](https://soyeon1221.github.io/SSG-LANDERS) 아이콘 클릭!
+
+<br>
+
+
 ## &#128204; 프로젝트 소개
 
 HTML, CSS, JavaScript를 사용하여 기존의 SSG LANDERS 홈페이지를 참고하여 만들었습니다.
 
 메뉴, 선수단소개, 경기일정, 유튜브 등 사이트를 처음부터 끝까지 구현해보았습니다. 
-
 
 <br>
 
@@ -48,13 +54,9 @@ HTML, CSS, JavaScript를 사용하여 기존의 SSG LANDERS 홈페이지를 참�
 ![SSG 유튜브](https://github.com/soyeon1221/SSG-LANDERS/assets/121142418/48283e83-ca0a-4627-8759-dfc901055dcd)
 - onclick 이벤트를 이용해서 해당 유튜브가 재생되도록 구현하였습니다.
 ### 5. 미디어
+![SSG 미디어](https://github.com/soyeon1221/SSG-LANDERS/assets/121142418/5b772de1-706a-4bfb-8d5f-5b7c447e970c)
 - 각 버튼을 클릭하면 해당 미디어로 이동합니다.
 
 <br>
 
-
-## &#128204;SSG LANDERS 바로가기
-
-[<img src="./SSG-icon.png" width="40" height="40">](https://soyeon1221.github.io/SSG-LANDERS) 아이콘 클릭!
-<br><br>
 
