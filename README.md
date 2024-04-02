@@ -44,10 +44,11 @@ HTML, CSS, JavaScript를 사용하여 기존의 SSG LANDERS 홈페이지를 참�
 - Header에 flex를 사용하여 상단 메뉴들의 너비를 똑같이 지정하였습니다.
 - :hover를 이용해 숨어있던 하단 메뉴가 나타나도록 하였고, color와 font-weight를 변경하였습니다.
 ### 2. 선수단 소개
-![SSG 선수단](https://github.com/soyeon1221/SSG-LANDERS/assets/121142418/03adb73f-b186-4a90-a43e-9bf89387a23f)
+![SSG 선수단](https://github.com/soyeon1221/SSG-LANDERS/assets/121142418/cbb9506b-52eb-4c92-8537-5a4cea817df7)
 - 기존 SSG LANDERS 홈페이지에 없는 선수단 소개 부분을 추가하였습니다.
 - 반복문을 사용하여 각 상자에 호버이벤트를 추가하고 호버된 상자의 너비를 넓히고 제외한 다른 상자의 너비를 작게하여 움직이는 애니메이션을 적용했습니다.
 ### 3. 경기일정
+![SSG 경기일정](https://github.com/soyeon1221/SSG-LANDERS/assets/121142418/1b9c9668-5e94-4cd0-82a0-f17f15e4149e)
 - position과 ::before을 사용해서 배경이미지에만 opacity를 적용했습니다.
 - 버튼을 클릭하면 각 상자의 translateX을 이동해서 슬라이드를 구현하였습니다.
 - if else문으로 함수를 작성해서 맨 마지막 상자에서 next 버튼을 눌렀을때 다시 첫번째 상자로 돌아가도록, 첫번째 상자에서 prev 버튼을 눌렀을때 맨 마지막 상자로 이동하도록 구현하였습니다.
