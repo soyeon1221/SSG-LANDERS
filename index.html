@@ -124,26 +124,7 @@
       </a>
     </div>
   </div>
-
-  <script>
-    // 각 상자의 요소를 가져옵니다.
-    var boxes = document.querySelectorAll('.box');
-
-    // 각 상자에 대한 이벤트를 동적으로 추가합니다.
-    for (var i = 0; i < boxes.length; i++) {
-      // 각 상자에 호버 이벤트를 추가합니다.
-      boxes[i].addEventListener('mouseover', function() {
-        // 호버된 상자의 너비를 500px로 설정합니다.
-        this.style.width = '500px';
-        // 호버된 상자를 제외한 다른 상자들의 너비를 100px로 설정합니다.
-        for (var j = 0; j < boxes.length; j++) {
-          if (boxes[j] !== this) {
-            boxes[j].style.width = '100px';
-          }
-        }
-      });
-    }
-  </script>
+  <script type="text/javascript" src="players.js"></script>
 
   <!-- GAMES -->
   <!-- <img src="https://sports-phinf.pstatic.net/team/kbo/default/OB.png?type=f108_108" alt="두산"> -->
@@ -202,13 +183,13 @@
               </div>
               <div class="games-mid">
                 <img src="https://sports-phinf.pstatic.net/team/kbo/default/OB.png?type=f108_108" alt="두산">
-                <div class="game-date">예정</div>
+                <div class="game-date">6 : 13</div>
                 <img src="https://sports-phinf.pstatic.net/team/kbo/default/SK.png?type=f108_108" alt="SSG">
               </div>
               <div class="games-bottom">
-                <div></div>
+                <div>패 - 최원준</div>
                 <div>인천</div>
-                <div></div>
+                <div>승 - 이건욱</div>
               </div>
             </div>
           </div>
@@ -326,41 +307,7 @@
       </p>
     </div>
   </div>
-
-  <script>
-    var slides = document.querySelector('.slides');
-    var slide = document.querySelectorAll('.games-inner')
-    var currentIdx = 2;
-    var slideCount = slide.length;
-    var prevBtn = document.querySelector('.prev');
-    var nextBtn = document.querySelector('.next');
-    var slideWidth = 500;
-
-    slides.style.width = slideWidth * slideCount + 'px';
-
-    function moveSlide(num) {
-      slides.style.transform = 'translateX(' + (-slideWidth * num) + 'px)';
-      currentIdx = num;
-    };
-
-    moveSlide(currentIdx); // 처음에 3번째 이미지로 이동
-
-    nextBtn.addEventListener('click', function() {
-      if(currentIdx < slideCount - 1) {
-        moveSlide(currentIdx + 1); 
-      } else {
-        moveSlide(0); 
-      }
-    });
-
-    prevBtn.addEventListener('click', function() {
-      if(currentIdx > 0) {
-        moveSlide(currentIdx - 1); 
-      } else {
-        moveSlide(slideCount - 1); 
-      }
-    });
-  </script>
+  <script type="text/javascript" src="games.js"></script>
 
   <!-- SHOP -->
   <div id="SHOP" class="shop">
@@ -411,12 +358,7 @@
       </div>
     </div>
   </div>
-
-  <script>
-    function youtubeOpen(url) {
-      window.open(url);
-    }
-  </script>
+  <script type="text/javascript" src="youtube.js"></script>
 
   <!-- MEDIA -->
   <div id="MEDIA" class="media">
