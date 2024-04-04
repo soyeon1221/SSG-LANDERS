@@ -1,6 +1,6 @@
 /* GAMES */
 var slides = document.querySelector('.slides');
-var slide = document.querySelectorAll('.g4mes-inner')
+var slide = document.querySelectorAll('.games-inner')
 var currentIdx = 4;
 var slideCount = slide.length;
 var prevBtn = document.querySelector('.prev');
