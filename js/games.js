@@ -1,7 +1,7 @@
 /* GAMES */
 var slides = document.querySelector('.slides');
 var slide = document.querySelectorAll('.g4mes-inner')
-var currentIdx = 3;
+var currentIdx = 4;
 var slideCount = slide.length;
 var prevBtn = document.querySelector('.prev');
 var nextBtn = document.querySelector('.next');
