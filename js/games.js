@@ -1,7 +1,7 @@
 /* GAMES */
 var slides = document.querySelector('.slides');
 var slide = document.querySelectorAll('.games-inner')
-var currentIdx = 3;
+var currentIdx = 1;
 var slideCount = slide.length;
 var prevBtn = document.querySelector('.prev');
 var nextBtn = document.querySelector('.next');
